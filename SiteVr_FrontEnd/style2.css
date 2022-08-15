@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #1a1a1a;
+}
+
+conteiner {
+    display: grid;
+    grid-template-rows: 16vh 84vh 24vh;
+}
+
+header {
+    background: #141414;
+}
+
+.LogoVRSTORE {
+    width: 250px;
+    height: 150px;
+}
+
+header>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    margin-left: -12.8px;
+}
+
+header>ul>li {
+    font-family: 'Lato' , sans-serif;
+    font-size: 20px;
+    color: white;
+    padding-left: 7em;
+    position: relative;
+    bottom: 90px;
+    right: 80px;
+}
+
+.Lupa {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 1400px;
+    top: 65px;
+}
+
+form {
+    position: absolute;
+    left: 1450px;
+    top: 68px;
+}
+
+input {
+    border-radius: 10px;
+    border-color: #141414;
+}
+
+.Trolley {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 1680px;
+    top: 55px;
+}
+
+.Avatar {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 1750px;
+    top: 65px;
+}
+
+#Drop {
+    position: relative;
+}
+
+#Drop ul {
+    list-style: none;
+    position: absolute;
+    display: none;
+    width: 70%;
+}
+
+#Drop li {
+    padding-top: 5px;
+}
+
+#Drop ul li {
+    background-color: #141414;
+    display: block;
+    width: 100%;
+}
+
+#Drop:hover ul {
+    display: block;
+}
+
+section {
+    display: flex;
+}
+
+.VR1 {
+    width: 50%;
+    height: 100%;
+}
+
+.VR2 {
+    width: 50%;
+    height: 100%;
+}
+
+.ImagesVR {
+    margin-top: 100px;
+    margin-left: 340px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.p1 {
+    text-align: left;
+    color: white;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    margin-top: 55px;
+    margin-left: 9.8em;
+}
+
+.p2 {
+    text-align: right;
+    color: white;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    margin-top: 55px;
+    margin-right: 10em;
+}
+
+footer {
+    background: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footerimages {
+    padding-left: 50px;
+}
+.Footertxtul {
+    display: flex;
+    flex-direction: column;
+    margin-top: -80px;
+}
+
+.Footertxtli {
+    font-family: 'Lato' , sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: lightgray;
+    position: relative;
+    top: -60px;
+}
+
+.Copy {
+    width: 50px;
+    height: 50px;
+    margin-top: -140px;
+    margin-left: 1500px;
+}
+
+.Copytxt {
+    color:grey;
+    margin-top: -120px;
+    margin-left: 1560px;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 100;
+}
+
+.Arrow {
+    margin-left: 7em;
+    position: relative;
+    top: -38em;
+}
+
+a:link {
+    text-decoration: none;
+   }
+ 
+ a {
+     color: white;
+ }
+ 

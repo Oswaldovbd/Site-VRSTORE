@@ -1,0 +1,225 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+conteiner {
+    display: grid;
+    grid-template-rows: 16vh 27vh 57vh 24vh;
+}
+
+header {
+    background: #141414;
+}
+
+.LogoVRSTORE {
+    width: 250px;
+    height: 150px;
+}
+
+header>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    margin-left: -12.8px;
+}
+
+header>ul>li {
+    font-family: 'Lato' , sans-serif;
+    font-size: 20px;
+    color: white;
+    padding-left: 7em;
+    position: relative;
+    bottom: 90px;
+    right: 80px;
+}
+
+.Lupa {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 1400px;
+    top: 65px;
+}
+
+form {
+    position: absolute;
+    left: 1450px;
+    top: 68px;
+}
+
+input {
+    border-radius: 10px;
+    border-color: #141414;
+}
+
+.Trolley {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 1680px;
+    top: 55px;
+}
+
+.Avatar {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 1750px;
+    top: 65px;
+}
+
+section {
+    background: #1a1a1a;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+    position: relative;
+    top: 80px;
+}
+
+.Homemoculus {
+    margin-left: 74.25em;
+}
+
+.Mainh2 {
+    color: #1a1a1a;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 100;
+    font-size: 60px;
+    position: absolute;
+    top: 440px;
+    left: 85px;
+}
+
+.Produtos {
+    box-shadow: 0px 0px 9px;
+    width: 335px;
+    height: 400px;
+    position: relative;
+    left: 130px;
+    bottom: 490px;
+    transition: 1s;
+}
+
+.Produtos:hover {
+    transform: scale(1.10);
+}
+
+.Questtxt{
+    text-align: center;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: -20px;
+    background-color: #1a1a1a;
+    color:white;
+}
+
+.Produtos2 {
+    box-shadow: 0px 0px 9px;
+    width: 335px;
+    height: 400px;
+    transition: 1s;
+    margin-left: 37%;
+    margin-top: -900px;
+}
+
+.Produtos2:hover {
+    transform: scale(1.10);
+}
+
+.Slime {
+    margin-top: 50px;
+}
+
+.Slimetxt {
+    text-align: center;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 50px;
+    background-color: #1a1a1a;
+    color:white;
+}
+
+footer {
+    background: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footerimages {
+    padding-left: 50px;
+}
+.Footertxtul {
+    display: flex;
+    flex-direction: column;
+    margin-top: -80px;
+}
+
+.Footertxtli {
+    font-family: 'Lato' , sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: lightgray;
+    position: relative;
+    top: -60px;
+}
+
+.Copy {
+    width: 50px;
+    height: 50px;
+    margin-top: -140px;
+    margin-left: 1500px;
+}
+
+.Copytxt {
+    color:grey;
+    margin-top: -120px;
+    margin-left: 1560px;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 100;
+}
+
+#Drop {
+    position: relative;
+}
+
+#Drop ul {
+    list-style: none;
+    position: absolute;
+    display: none;
+    width: 70%;
+}
+
+#Drop li {
+    padding-top: 5px;
+}
+
+#Drop ul li {
+    display: block;
+    width: 100%;
+    background-color: #141414;
+}
+
+#Drop:hover ul {
+    display: block;
+}
+
+a:link {
+   text-decoration: none;
+  }
+
+a {
+    color: white;
+}
+

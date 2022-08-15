@@ -1,0 +1,297 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #1a1a1a;
+}
+
+container {
+    display: grid;
+    grid-template-rows: 16vh 84vh 24vh;
+}
+
+header {
+    background: #141414;
+}
+
+.LogoVRSTORE {
+    width: 250px;
+    height: 150px;
+}
+
+header>ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    margin-left: -12.8px;
+}
+
+header>ul>li {
+    font-family: 'Lato' , sans-serif;
+    font-size: 20px;
+    color: white;
+    padding-left: 7em;
+    position: relative;
+    bottom: 90px;
+    right: 80px;
+}
+
+.Lupa {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 1400px;
+    top: 65px;
+}
+
+form {
+    position: absolute;
+    left: 1450px;
+    top: 68px;
+}
+
+#search {
+    border-radius: 10px;
+    border-color: #141414;
+}
+
+.Trolley {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    left: 1680px;
+    top: 55px;
+}
+
+.Avatar {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 1750px;
+    top: 65px;
+}
+
+#Drop {
+    position: relative;
+}
+
+#Drop ul {
+    list-style: none;
+    position: absolute;
+    display: none;
+    width: 70%;
+}
+
+#Drop li {
+    padding-top: 5px;
+}
+
+#Drop ul li {
+    display: block;
+    width: 100%;
+    background-color: #141414;
+}
+
+#Drop:hover ul {
+    display: block;
+}
+
+.Formulario {
+    width: 50%;
+    height: 100%;
+}
+
+.FormularioP {
+    text-align: center;
+    color: white;
+    font-family: 'Lato' , sans-serif;
+    font-size: 40px;
+    margin-top: 250px;
+    margin-right: 150px;
+}
+
+.SectionForm {
+    margin-top: 450px;
+    margin-left: -78.5em;
+}
+
+.SectionForm input {
+    outline: none;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 50;
+    border: none;
+    width: 25rem;
+}
+
+
+.Campo {
+    display: flex;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 0 0;
+}
+
+.underline {
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: white;
+    margin-top: 1.5rem;
+}
+
+input::placeholder {
+    color: white;
+}
+
+label {
+    color: white;
+    font-size: 20px;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 50;
+   
+}
+
+textarea {
+    margin-top: 40px;
+    margin-left: -107px;
+    width: 40rem;
+    height: 10rem;
+    outline: none;
+}
+
+#Button {
+    background-color: white;
+    border: none;
+    color: #141414;
+    font-weight: 700;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+#Button:hover {
+    background-color: grey;
+}
+
+#Flecha {
+    position: absolute;
+    margin-left: 6rem;
+    margin-top: 2em;
+}
+
+h1 {
+    position: absolute;
+    color: white;
+    font-size: 3em;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 50;
+    margin-left: 35.5rem;
+    margin-top: 0.5em;
+}
+
+section {
+    display: flex;
+}
+
+.Parte2 {
+    width: 50%;
+    height: 100%;
+}
+
+#localizacao {
+    text-align: center;
+    color: white;
+    font-family: 'Lato' , sans-serif;
+    font-size: 40px;
+    margin-top: 250px;
+    margin-left: 150px;
+}
+
+#globe {
+    margin-left: 330px;
+    margin-top: 30px;
+}
+
+#endereco {
+    margin-left: 420px;
+    margin-top: -55px;
+    color: white;
+    font-family: 'Lato' , sans-serif;
+    font-size: 20px;
+}
+
+#siga {
+    text-align: center;
+    color: white;
+    font-family: 'Lato' , sans-serif;
+    font-size: 40px;
+    margin-top: 80px;
+    margin-left: 150px;
+}
+
+.imagens {
+    display: flex;
+    margin-left: 330px;
+    margin-top: 50px;
+}
+
+.imgs {
+    padding-left: 30px;
+}
+
+footer {
+    background: #141414;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footerimages {
+    padding-left: 50px;
+}
+.Footertxtul {
+    display: flex;
+    flex-direction: column;
+    margin-top: -80px;
+}
+
+.Footertxtli {
+    font-family: 'Lato' , sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: lightgray;
+    position: relative;
+    top: -60px;
+}
+
+.Copy {
+    width: 50px;
+    height: 50px;
+    margin-top: -140px;
+    margin-left: 1500px;
+}
+
+.Copytxt {
+    color:grey;
+    margin-top: -120px;
+    margin-left: 1560px;
+    font-family: 'Lato' , sans-serif;
+    font-weight: 100;
+}
+a:link {
+    text-decoration: none;
+   }
+ 
+ a {
+     color: white;
+ }
+ 
